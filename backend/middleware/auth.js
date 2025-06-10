@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs');
+const bcrypt = require('../../frontend/node_modules/bcryptjs/umd');
 const jwt = require('jsonwebtoken');
 
 // 🔐 Хэширование пароля

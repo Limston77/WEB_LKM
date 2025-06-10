@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
-const bcrypt = require('bcryptjs');
+const bcrypt = require('../../frontend/node_modules/bcryptjs/umd');
 const jwt = require('jsonwebtoken');
 
 // Регистрация
